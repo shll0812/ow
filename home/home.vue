@@ -1,5 +1,5 @@
 <template>
-<body class="home ">
+<body id="home">
     <div class="home_header">
         <!-- <div class="bg_video"> 
             <video autoplay loop="loop">  
@@ -38,7 +38,15 @@
 <!-- 2 -->
     <div class="home_inner">
         <h2>新闻公告</h2>
-        <div class="innerimg1">
+        <el-carousel :interval="3000" type="card" height="248px">
+       <el-carousel-item v-for="item in imagesbox" :key="item.id">
+            <el-row>
+          <el-col :span="24"><img :src="item.idView" class="banner_img"/></el-col>
+        </el-row>
+         
+    </el-carousel-item>
+  </el-carousel>
+        <!--<div class="innerimg1">
             <a href=""></a>
             <div>
                 <a href="javascript:;">全新地图“巴黎”现已上线</a>
@@ -50,7 +58,7 @@
                 <a href="javascript:;">购《守望先锋》享5折特惠</a>
             </div>
         </div>
-        <div>
+        <div>-->
             <a href="javascript:;" class="inner_btn">查看所有新闻</a>
         </div>
     </div>
@@ -208,14 +216,22 @@
                 <p class="foot_text">现在即是未来，你来吗？</p><a href="javascript:;" target="_blank" class="m_lg">立即购买</a>
             </div>
     </div>
+     
 
 </body>
+
 </template>
 <script>
 
 export default {
     data(){
         return{
+             imagesbox:[{id:0,idView:"https://overwatch.nosdn.127.net/a/images/2019/2/20/c708b3bd73b1508d8b5038fffb25b3ae.jpg"},
+                        {id:1,idView:"http://overwatch.nos.netease.com/a/images/2017/11/21/%E5%AE%98%E7%BD%91%E5%A4%A7%E7%9C%BC%E7%9D%9B2.jpg"},
+                         {id:2,idView:"http://overwatch.nosdn.127.net/a/images/2019/2/25/2e11f936edeabad99093314433674ebc.jpg"},
+                        {id:3,idView:"http://blz.nosdn.127.net/a/images/2019/2/28/a52fda77093188f3614c450634d19235.jpg"}
+                        ]
+            ,
             names:"源氏",
             ban:"一名致命的半机械忍者，通过他的机械躯体寻得了身心的和谐。",
             imgurl:"",
@@ -239,4 +255,20 @@ export default {
 
 </script>
 <style >
+/*  .el-carousel__item h2 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
+  }
+  
+  .el-carousel__item:nth-child(2n) {
+    background-image: #99a9bf;
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }*/
+  
 </style>
