@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    .home{
+        min-width: 1200px;
+    }
+    .home_header{
+        position: relative;    
+        width: 100%;    
+    }
+    .imglg{
+        text-align: center;
+    }
+    .imglg>img{
+        width: 35%;
+        margin-top: 130px;
+    }
+    .bg_video>video{
+        width:100%;
+        height:100%;
+    }
+    home a{
+        text-decoration: none;
+    }
+    /* video{  
+        position: fixed;  
+        right: 0px;  
+        bottom: 0px;  
+        min-width: 100%;  
+        min-height: 100%;  
+        height: auto;  
+        width: auto;  
+        /*加滤镜*/  
+        /*-webkit-filter: grayscale(100%);*/  
+        /*filter:grayscale(100%);*/  
+       /* z-index:-11
+    }  
+    source{  
+        min-width: 100%;  
+        min-height: 100%;  
+        height: auto;  
+        width: auto;  
+    }  */
+    .header1{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top:40px;
+        left: 0px;
+        min-width:949px;
+    }
+    .tit{
+        font-family: Big Noodle Too,impact,sans-serif;
+        font-style: italic;
+        text-align: center;
+        color: beige;
+        font-size: 2rem;
+    }
+    .tit>h2{
+        font-weight:400;
+    }
+    .home_button{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .home_button>div>a{
+        display: inline-block;
+        border-radius: 2px;
+        text-decoration: none;
+        line-height: 32px; 
+        font-weight: 700;
+        color:rgb(51, 51, 51);
+    }
+    .home_button>.home_btn1>a{
+        background: #ff9c00;
+        border: 2px solid #ff9c00;
+        padding: 0 45px;
+        font-size: 16px;
+        
+    
+    }
+    .home_button>.home_btn2>a{
+        background:rgb(255, 255, 255);
+        margin-top: 18px;
+        padding:0 43px;
+        border: 2px solid #fff;
+        font-size: 12px;
+    }
+    .home_button>.home_btn2>a>.btn2_bg{
+        width: 17px;
+        height: 20px;
+        display: inline-block;
+        background-image: url(../img/ty/img/arraw.png);
+        background-position: 0 -50px;
+        margin-bottom: -6px;
+    }
+    .home_button>.home_btn2 :hover{
+        border-color: #fff;
+        background-color: transparent;
+        color: #fff;
+        transition: 0.5s;
+        background-position: 0 0;
+    }
+    /* 2lou */
+    .home_inner>h2{
+    
+        text-align: center;
+    
+    }
+    .home_inner{
+        margin-top:-4px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        text-align: center;
+        background: #fff; 
+    }
+    .home_inner>.innerimg1,.home_inner>.innerimg2{
+        display: inline-block;
+        padding: 0 10px;
+        position: relative;
+    }
+    .home_inner>.innerimg1>a{
+        display: inline-block;
+        margin-top: 50px;
+        width: 569px;
+        height:248px;
+        background-image: url(../img/ty/img/3ae.jpg) 
+    }
+    .home_inner>.innerimg2>a{
+        display: inline-block;
+        margin-top: 50px;
+        width: 569px;
+        height:248px; 
+        background-image: url(../img/ty/img/qqq2.jpg)
+    }
+    .home_inner>.innerimg1>div,.home_inner>.innerimg2>div{
+    width:569px;
+    line-height:54px;
+    background: rgba(0,0,0,.75);
+    position: absolute;
+    top:244px;
+    text-align: left;
+    }
+    .home_inner>.innerimg1>div>a,.home_inner>.innerimg2>div>a{
+        color: #f0edf2;
+        font-weight:400;
+    }
+    .inner_btn{
+        font-size: 1.4rem;    
+        border-color: transparent;
+        background-color:#0a9cd2;
+        line-height: 1;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 2px;
+        display: inline-block;
+        padding: 7.5px 65px;
+        margin-top: 25px;
+        width: 295px;
+        height: 24px;
+    }
+    .inner_btn :hover{
+        background-color:#00a5e2;
+        transition: 0.5s;
+    }
+    /* 3lou */
+    .home_inner2{
+        color: #f0edf2;
+        font-size: 1.6rem;
+        padding-top: 80px;
+        padding-bottom: 85px;
+        text-align: center;
+        background-size: 100% 100%;
+        background-image: no-repeat;
+        background-position: center top;
+        background-image: url(../img/ty/img/desktop.jpg);
+    }
+    .intro-heading {
+        font-size: 3.5rem;
+       font-weight: 400;
+        margin-bottom: 44px;
+        text-transform: none;
+        font-style: italic;
+    }
+    .intro-text {
+        line-height: 1.47;
+        margin-bottom: 3.6rem;
+    }
+    .m_lg{
+        background: #ff9c00;
+        border: 2px solid #ff9c00;
+        margin-top:40px;
+        font-size: 1.4rem;    
+        border-color: transparent;
+        line-height: 1;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 2px;
+        display: inline-block;
+        padding: 7.5px 22px;
+        margin-top: 25px;
+        height: 24px;   
+    }
+    /* 4 */
+    .home_container{
+        background-image: url(../img/ty/img/candy.jpg);
+        background-image: no-repeat;
+        position: relative;
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+    .home_container>.container_img{
+        position: fixed;
+        left: 0;
+        top: 0;
+        min-width:1200px; 
+      height: 100%;
+      width: 100%;
+        z-index:-1;
+    
+    }
+    .intro-heading-gradient-blue {
+        font-family: Big Noodle Too,impact,sans-serif;
+        font-size: 3.5rem;
+        font-weight: 500;
+        text-shadow: 0 4px 5px rgba(60,72,96,.5);
+    }
+    .container1{
+        text-align: center;
+    }
+    .u-center-block{
+        font-size: 24px;
+        color: rgba(0,0,0,.75)
+    }
+    /*====================*/
+    .home_hero{
+    position: relative;
+    
+    }
+    .home_ban{
+        height: 200px;
+        width: 100%;
+        background-image: linear-gradient(90deg,rgba(42,55,81,0) 0,rgba(42,55,81,.8) 25%,rgba(42,55,81,.8) 75%,rgba(42,55,81,0));
+        align-items: center;
+        padding: 20px 0;
+        -webkit-box-align: center;
+        position: absolute;
+        top: 25%;
+    
+    }
+    .home_ban>.ban1{
+        color: #f0edf2;
+        padding-left: 50%;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        
+    }
+    .home_ban>.ban2{
+        color: #f0edf2;
+        padding-left: 50%;
+        margin-top: 10px;
+        min-height: 48px;
+        text-align: center;
+        padding-right: 5%;
+    }
+    .home_hero>.ban_img{
+        background-image: url(../img/ty/img/ys.png);
+        position: relative;
+        left: 12%;
+        display: inline-block;
+        min-width: 746px;
+        min-height: 440px;
+        margin: 0 auto;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        z-index: 1;
+    }
+    /*英雄列表*/
+    .home_heros{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        max-width:1250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home_heros>.home_hero_portrait_group{
+        list-style: none;
+    }
+    .home_heros>.home_hero_portrait_group>.home_relative{
+        display: inline-block;
+        position: relative;
+    }
+    .home_heros>.home_hero_portrait_group>.home_relative>.home_hero_portait{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .home_heros>.home_hero_portrait_group>.home_relative>.home_hero_portait>.home_hero_img{
+        display: block;
+        position: relative;
+        width: 70px;
+        height: 84px;
+        margin: 2.4px 6px;
+        border: 3px solid #f0edf2;
+        border-left-width: 0;
+        border-right-width: 0;
+        background-color: rgba(51,51,51,.9);
+        background-clip: padding-box;
+        overflow: hidden;
+        border-radius: 7px;
+        -webkit-transform: skew(25rad);
+        -ms-transform: skew(25rad);
+        transform: skew(25rad);
+    }
+    .home_heros>.home_hero_portrait_group>.home_relative>.home_hero_portait>.home_hero_img>.home_heroimg{
+        display: inline-block;
+        width: calc(100% + 10px);
+        height: 100%;
+        background-size: auto 100%;
+        background-position: 50% 50%;
+        position: relative;
+        -webkit-transform: skew(-25rad) translateX(-5px);
+        -ms-transform: skew(-25rad) translateX(-5px);
+        transform: skew(-25rad) translateX(-5px);
+ 
+    }
+    .ys{
+        background-image: url(../img/ty/img/smys.png);
+    }
+    .dva{
+        background-image: url(../img/ty/img/smdva.png);
+    }
+    .an{
+        background-image: url(../img/ty/img/sman.png);
+    }
+    .lyht{
+        background-image: url(../img/ty/img/smlyht.png);
+    }
+    .hbh{
+        background-image: url(../img/ty/img/smhbh.png);
+    }
+    .phq{
+        background-image: url(../img/ty/img/smphq.png);
+    }
+    .mkl{
+        background-image: url(../img/ty/img/smmkl.png);
+    }
+    .s76{
+        background-image: url(../img/ty/img/sm76.png);
+    }
+    .lk{
+        background-image: url(../img/ty/img/smlk.png);
+    }
+    .bz{
+        background-image: url(../img/ty/img/smbz.png);
+    }
+    .lxa{
+        background-image: url(../img/ty/img/smlxa.png);
+    }
+    .m{
+        background-image: url(../img/ty/img/smm.png);
+    }
+    .ts{
+        background-image: url(../img/ty/img/smts.png);
+    }
+    .bl{
+        background-image: url(../img/ty/img/smbl.png);
+    }
+    .home_heros>.home_hero_portrait_group>.home_relative>.home_hero_portait>.home_herolable{
+        position: relative;
+        display: inline-block;
+        top: -4.2px;
+        border-radius: 5px;
+        margin-left: -10px;
+        padding: 1px 10px;
+        font-size: 13px;
+        color: #333;
+        white-space: nowrap;
+    }
+    .home_heros>.home_hero_portrait_group>.home_relative>.home_hero_portait>.home_hero_img :hover{
+    background-color: rgba(245,145,51);
+     
+        }
+        
+    
+    /*================================*/
+    
+    .home_foot{
+        padding: 80px 0px;
+        height:515px ;
+        position: relative;
+        text-align: center;
+        background-image: url(../img/ty/img/museum.jpg);
+        background-size: cover;
+        background-position: center top;
+    }
+    .foot_fg{
+        position: absolute;
+        top:-92px;
+        width: 50%;
+        height: 118%;
+        background-image: url(../img/ty/img/widowmaker-default-pc.png);
+        background-size: 100% auto;
+    }
+    .foot_text{
+        margin-top: 20px;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .home_column{
+        margin-left: 300px;
+    }
+    .home_column>.intro-heading-gradient-blue {
+        font-style: italic;
+    }
+    .home_dd{
+        height:400px;
+        width: 100%;
+    }
