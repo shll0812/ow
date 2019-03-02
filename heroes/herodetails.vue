@@ -293,7 +293,7 @@
             
             <div class="hero-type-container">
                 <h3 class="hero-select-title"><span class="heading-line"></span><span class="text">重装</span><span class="heading-line"></span></h3> 
-                <ul class="js-hero-portrait-group u-align-center">
+                <ul class="js-hero-portrait-group align-center">
                     
                     
                     <li class="hero-item">
@@ -360,7 +360,7 @@
 								</div>
 								<div class="hero-type-container">
                 <h3 class="hero-select-title"><span class="heading-line"></span><span class="text">输出</span><span class="heading-line"></span></h3> 
-                <ul class="js-hero-portrait-group u-align-center">
+                <ul class="js-hero-portrait-group align-center">
                     
                     
                     <li class="hero-item">
@@ -481,7 +481,7 @@
 								</div>
 								<div class="hero-type-container">
                 <h3 class="hero-select-title"><span class="heading-line"></span><span class="text">支援</span><span class="heading-line"></span></h3> 
-                <ul class="js-hero-portrait-group u-align-center">
+                <ul class="js-hero-portrait-group align-center">
                     
                     
                     <li class="hero-item">

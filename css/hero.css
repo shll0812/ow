@@ -115,7 +115,6 @@
         }
     #lwh #heros-home .hero-name:hover{
         transform:scale(1.1);
-        z-index: 2;
     }
     #lwh .text{
         color:#000;
@@ -134,6 +133,8 @@
         background: rgba(40,53,79,.9);
         transition: all .1s;
     }
+
+   
     #lwh .container .container-title{
         font-family:"microsoft yahei";
         font-style: italic;
@@ -144,9 +145,26 @@
         bottom: 6px;
         font-size:30px;
     }
+    .containera{
+        font-family: "microsoft yahei";
+        font-style: italic;
+        color: rgba(40,53,79,.9) !important;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 6px;
+        font-size: 30px;   
+    }
     #lwh #heros-home .hero-name .hero-jump:hover .container{
         background:#fff;
     }
+    #lwh #heros-home .hero-name .hero-jump:hover .icon{
+        fill:#1a325e;
+    }
+    #lwh #heros-home .hero-name .hero-jump:hover .container-title{
+        color:#1a325e;
+    }
+    
     #lwh .nav-link .icon{
         display: inline-block;
         height: 18px;
@@ -186,7 +204,7 @@
         height: 100%;
         box-shadow: inset 0 0 57px 14px rgba(0,195,255,.7);
     }
-    #lwh .hero-name .hero-jump .container:hover .icon .container-title{
+    #lwh .hero-name .hero-jump  .icon .container-title{
         transform: scale(1.1);
         color:#000;
         fill:#1a325e;

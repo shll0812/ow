@@ -162,7 +162,7 @@
     #lwh .inner .hero_details_tabs{
         padding-top: 50px;
         width: 1190px;
-        height: 1374px;
+        height: 1334px;
     }
     #lwh .content_box{
         display: none;
@@ -212,7 +212,7 @@
     }
     #lwh #tabs .tabs-content{
         width: 595px;
-		height:1374px;
+		height:1334px;
         color: #fff;
         background-color: rgba(19,42,77,.6);
     }
@@ -621,7 +621,7 @@
 			opacity: .2;
 			background: #fff;
 		}
-		#lwh .u-align-center{
+		#lwh .align-center{
             width: 100%;
             height: 225px;
             position: relative;
