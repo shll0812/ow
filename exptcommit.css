@@ -1,0 +1,456 @@
+.Hori-column{
+    width:963px;
+    height:360px;
+    position: absolute; ;
+    left:0px;
+    overflow: hidden;
+    z-index: 1;
+    display:inline-block;
+    transition-property:width;
+    transition-duration:1s;
+    overflow:hidden;
+}
+template{
+ font-size:1.6rem;
+ line-height: 1.5;
+ margin:0 auto;
+ padding:0;
+ margin:0;
+ position: relative;
+}
+
+.esports{
+ margin:0 auto;
+ width:1920px;
+ height:2052.59px;
+
+
+}
+.esports-imga{
+ width:100%;
+ height:1665.59px;
+ margin:0 auto;
+ 
+}
+.esports-age{
+ width:100%;
+ height:1665.59px;
+ margin:0 auto;
+ position: relative;
+}
+
+.containera{
+position: absolute;
+top:146px;
+width:100%;
+height:1520px;
+ text-align:center;
+}
+.containerb{
+ width:1540px;
+ height:940.6px;
+ margin:0 auto;
+}
+.container{
+ 
+line-height: normal;
+font-style: italic;
+ font-size: 3.03rem;
+ color:#f0edf2;
+ letter-spacing: .5px;
+ position: relative;
+}
+.container>h1{
+ font-weight: 350;
+}
+.esports-topimg{
+ padding-top:36px;
+ margin:0 auto;
+ position: relative;
+ width:1204px;
+ height:685px;
+ transition:0.5s;
+ overflow: hidden;
+}
+
+
+.esports-topa{
+  border:2px solid #f0edf2;
+
+width:1200px;
+height:681px;
+}
+
+.container>h1{
+ margin:0;
+ padding:0;
+
+}
+.esports-topimg:hover{
+transform:scale(1.1);
+
+}
+
+.ctrl{
+ position: absolute;
+ left:50%;
+ top:50%;
+ margin-top:-60px;
+ margin-left:-60px;
+}
+
+.ctrr{
+ position: absolute;
+ left:50%;
+ top:50%;
+ margin-top:-60px;
+ margin-left:-60px;
+ display:block;
+}
+.ctrrr{
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-top:-60px;
+  margin-left:-60px;
+  display:none;
+ }
+.video{
+  width:1204px;
+  height:685px;
+  display: inline-block;
+  vertical-align:baseline; 
+}
+.ctrla{
+ position: absolute;
+ left:50%;
+ top:50%;
+ 
+ margin-top:-60px;
+ margin-left:-60px;
+ display:none;
+}
+.ctrlb{
+ position: absolute;
+ left:50%;
+ top:50%;
+ 
+}
+.ctrl img{
+ width:150px;
+ height:150px;
+ 
+}
+.ctrr img{
+ width:150px;
+ height:150px;
+ 
+}
+.media-card-caption{ 
+ position: absolute;
+ top:674px;
+ width:1204px;
+ height:44px;
+ background-color:rgba(3,20,26,0.75);
+ color:#f0edf2;
+ margin:0 auto;
+ 
+}
+.media-card-caption>span{
+ line-height:44px;
+}
+.ports-flex-item{
+ color:#f0edf2;
+  padding-top:30px;
+ 
+}
+.ports-flex-item>h2{
+ font-size: 3.8rem;
+ margin:0;
+ padding:0;
+ padding-top:10px;
+ font-weight: 350;
+ font-variant: normal;
+ line-height: normal;
+ 
+ font-style: italic;
+}
+.ports-flex-item>p{
+ width:640px;
+ height:75px;
+ margin:0 auto;
+ font-size: 16px;
+ padding-top:10px;
+ text-align:left;
+}
+/*争霸赛*/
+.esports-pathtopro-container{
+ width:1553px;
+ height:360px;
+ margin:0 auto;
+ color:#333;
+ padding-top:-6px;
+ display: flex;
+ 
+}
+.show-for-xl{
+ width:1550px;
+ height:360px;
+ background-color:#f0edf2;
+ border:1px solid #a1a1a1;
+  position: relative;
+  flex-direction: row;
+}
+.HorizontalAc{
+ position: absolute;
+ left: 50%;
+ -ms-transform: translateX(-50%);
+ transform: translateX(-50%);
+ bottom:46px;
+ width: 30px;
+ height: 30px;
+ fill: #ff9c00;
+}
+.HorizontalAcc{
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom:-31px;
+  width: 30px;
+  height: 30px;
+  fill: #ff9c00;
+ }
+.Hori-media{
+ width:967px;
+ height:192px;
+ position: absolute;
+ top:97px;
+ margin:0 auto;
+ transition-property:width;
+ /* transition-duration:1s; */
+}
+
+.Hori-mediaimg{
+ width:148.8px;
+ height:75px;
+ position: absolute;
+ top:45px;
+ left:36px;
+ transition:all .3s linear;
+}
+
+.Hori-mediaimg :hover{
+  transform:scale(1.1);
+ 
+}
+.Hori-mediaimg>img{
+ width:148.8px;
+ height:75px;
+}
+
+.LadderInfoBlock{
+ width:688px;
+ height:191px;
+ position: absolute;
+ left:194px;
+ top:91px;
+ text-align: left;
+ opacity:1;
+ transition: 0.3s;
+}
+.LadderInfoBlocka{
+  width:688px;
+  height:191px;
+  position: absolute;
+  left:230px;
+  text-align: left;
+  opacity:1;
+  transition: 0.3s;
+ }
+
+.LadderInfoBlock>h4{
+ font-size: 26px;
+ margin-left:10px;
+ margin:0;
+ padding:0;
+}
+.LadderInfoBlocka>h4{
+  font-size: 26px;
+  margin-left:10px;
+  margin:0;
+  padding:0;
+ }
+.LadderInfoBlock>p{
+ font-size: 17px;
+ margin-bottom: 36px;
+}
+.LadderInfoBlocka>p{
+  font-size: 17px;
+  margin-bottom: 36px;
+ }
+.LadderInfoBlock>a{
+ width:300px;
+ height:40px;
+ background-color: #ff9c00;
+ padding: 6px 1em;
+ border-radius: 2px;
+ border: 3px solid transparent;
+ font-weight: 700;
+ font-size: 17px;
+ text-align: center;
+ letter-spacing: .025em;
+ text-decoration: none;
+ color:#f0edf2;
+}
+.LadderInfoBlocka>a{
+  width:300px;
+  height:40px;
+  background-color: #ff9c00;
+  padding: 6px 1em;
+  border-radius: 2px;
+  border: 3px solid transparent;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: .025em;
+  text-decoration: none;
+  color:#f0edf2;
+ }
+.LadderInfoBlockq:hover{
+ width:688px;
+ height:191px;
+ position: absolute;
+ top:100px;
+ text-align: left;
+ overflow:hidden;
+
+}
+
+
+.Hori-column-it{
+ width:192.5px;
+ height:360px;
+ position: absolute;
+ left:970px;
+ border-left:1px solid #a1a1a1;
+ transition: 0.3s;
+ z-index: 2;
+ overflow:hidden;
+ transition-property:width;
+ /*transition-duration:1s;*/
+}
+/*.Hori-column-it:hover{
+ left:225px;
+ display: inline-block;
+ 
+}*/
+.Hori-column-i{
+ position: absolute;
+ top:46%;
+ left:-12px;
+}
+
+
+.Hori-column-jtou{
+position: absolute;
+ left:960px;
+ top:155px;
+
+}
+.Hori-column-itb{
+ width:192.5px;
+ height:360px;
+ position: absolute;
+ left:1356px;
+ border-left:1px solid #a1a1a1;
+ transition-property:width;
+ /* transition-duration:1s */
+ overflow:hidden;
+
+}
+.Hori-column-ita{
+ width:192.5px;
+ height:360px;
+ position: absolute;
+ left:1162px;
+ border-left:1px solid #a1a1a1;
+ transition-property:width;
+ overflow:hidden;
+ /* transition-duration:1s */
+
+}
+.Hori-column-abs{
+ width:191.5px;
+ height:360px;
+ 
+ 
+}
+.Hori-column-img{
+  position: absolute;
+  top: 144px;
+  left: 38px;
+ }
+.Hori-column-img:hover{
+  transform:scale(1.1);
+  transition:all .3s linear;
+}
+.Hori-column-img>img{
+ width:122.5px;
+ height:81.9px;
+ 
+}
+
+.Hori-column-jtoua{
+ position: absolute;
+ left:1153px;
+ top:155px;
+}
+
+/*底部*/
+.esports-aga{
+ width:100%;
+ height:387px;
+ position: relative;
+}
+.esports-imgb{
+ width:100%;
+ height:387px;
+ 
+}
+.rowu-container{
+ width:1250px;
+ height:218px;
+ margin:0 auto;
+ position: absolute;
+ top:73px;
+ left:266px;
+}
+.rowu-container-item{
+ width:475px;
+ height:218px;
+ display:inline-block;
+ position:absolute;
+ left:10px;
+ top:10px;
+
+}
+.rowu-container-item>img{
+ width:200px;
+ height:218px;
+ margin-left:249px;
+}
+
+.aaa{
+ margin-top:-215px;
+ color:#f0edf2;
+ margin-left:242px;
+ position:absolute;
+ top:251px;
+ left:255px;
+
+}
+.aaa>h2{
+ margin-top:8px;
+ font-size: 31px;
+}
