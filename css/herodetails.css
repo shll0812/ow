@@ -635,6 +635,12 @@
 			
 			font-size:inherit;
 		}
+		#lwh .hero-item:hover{
+			transform: scale(1.1);
+		}
+		#lwh .wrap .image:hover{
+			background-color: #f7931e;
+		}
 		#lwh .hero-portrait{
 			position: relative;
 			display: inline-block;
@@ -844,12 +850,22 @@
 			background-position: 0 -69px;
 		}
 		#lwh .lightbox-content{
-			background-image: url(../img/lwh/img/2_media_Wallpapers_Dva.jpg);
 			background-size:auto 100%;
 			background-position:center center;
 			padding-bottom:56.25%;
 			box-shadow: 0 0 20px 5px rgba(0,0,0,.5);
 			display: block;
+		}
+		#lwh .lightbox-content img{
+			position: absolute;
+			top:0;
+			left: 70px;
+			opacity: 0;
+			width: 90%;
+			transition: all .5s linear;
+		}
+		#lwh .lightbox-content>img.imgshow{
+			opacity: 1;
 		}
 		#lwh .lightbox-footer .m-name{
 			color:#f0edf2;

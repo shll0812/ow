@@ -546,8 +546,13 @@
                 </div>
                 <div class="lightbox-body m-controls">
                     <a href="#" class="lightbox-prev" @click="lookimg"></a>
-                    <a href="#" class="lightbox-next" @click="lookimg"></a>
-                    <a href="#" class="lightbox-content"></a>
+                    <a href="#" class="lightbox-next" @click="lookimg"></a>   
+                    <a href="#" class="lightbox-content">
+                        <img class="imgshow" src="img/lwh/img/2_media_Wallpapers_Dva.jpg"/>
+                        <img src="img/lwh/img/2_media_screenshots_Dva02.jpg"/>
+                        <img src="img/lwh/img/2_media_screenshots_Dva03.jpg"/>
+                        <img src="img/lwh/img/2_media_screenshots_Dva04.jpg"/>
+                    </a>   
                 </div>
                     <div class="lightbox-footer">
                         <p class="m-name">游戏截图：D.Va</p>
@@ -571,7 +576,13 @@ export default {
             {src:"img/lwh/img/1_assets_images_hero_dva_ability-micro-missiles_video-ability.mp4"},
             {src:"img/lwh/img/1_assets_images_hero_dva_ability-self-destruct_video-ability.mp4"},
             {src:"img/lwh/img/1_assets_images_hero_dva_intro-video.mp4"}
-            ]
+            ],
+            /*imgList:[
+                {backgroundImage:"url(img/lwh/img/2_media_screenshots_Dva02.jpg)"},
+                {backgroundImage:"url(img/lwh/img/2_media_screenshots_Dva04.jpg)"},
+                {backgroundImage:"url(img/lwh/img/2_media_screenshots_Dva03.jpg)"},
+                {backgroundImage:"url(img/lwh/img/2_media_Wallpapers_Dva.jpg)"}
+            ]*/
         }
     },
     methods: {
@@ -633,14 +644,16 @@ export default {
             var prev = e.target;
             console.log(prev);
             if(prev.nextElementSibling !=null){
-                var lightcont = document.querySelector(".lightbox-content");
-                lightcont.style.background ="url(img/lwh/img/2_media_screenshots_Dva02.jpg)";   
-            }else if(lightcont.style.background-iamge){
-                lightcont.style.background ="url(img/lwh/img/2_media_screenshots_Dva04.jpg)";
+            var img=document.getElementsByClassName("imgshow")[0];
+            img.className="";
+            if(img.nextElementSibling!==null){
+                img.nextElementSibling.className="imgshow";
             }else{
-                lightcont.style.background ="url(img/lwh/img/2_media_screenshots_Dva03.jpg)";
+                img.parentNode.children[0].className="imgshow";
             }
-        },
+               
+        }
+    },
         close(e){
             var lightclose = e.target;
             console.log(lightclose);
