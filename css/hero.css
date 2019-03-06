@@ -1,0 +1,245 @@
+
+    a{text-decoration: none}
+    div, dl, form, h1, h2, h3, h4, h5, h6, li, ol, p, td, th, ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+   #lwh{
+        background-image: url('../img/lwh/img/obg.jpg');
+        color: #333;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #d0c7dc;
+    }
+    #lwh .hero-box{
+        width: 1278px;
+        height: 1975px;
+        padding-top: 128px;
+        margin:0 auto;
+    }
+    #lwh .hero-box .inner{
+        width: 1190px;
+        height: 1925px;
+        margin: 50px 14px 50px 14px;
+        padding-left:30px;
+        padding-right: 30px; 
+        margin:0 auto;
+    }
+    #lwh .hero-box .inner .inner-title{
+        width: 793px;
+        height: 124px;
+    }
+    #lwh .inner-title .hero-selector{
+        font-style: italic;
+        font-weight: 400;
+        font-size: 48px;
+    }
+    #lwh .inner-title .inner-text{
+        margin-top: 12px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    #lwh .inner #heros{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 1190px;
+        height: 1713px;
+    }
+    #lwh #heros .nav-list{
+        display: flex;
+        margin-bottom: 50px;
+    }
+    #lwh #heros .nav-list .nav-item{
+       
+        width: 297px;
+        height: 44px;
+        line-height: 44px;
+        border-radius: 2px;
+        margin-right: 1px;
+        justify-content: space-around;
+    }
+
+     #lwh #heros .nav-list .nav-item .nav-link .text:first-child{
+        color:#000;
+    }
+     #lwh #heros .nav-list .nav-item{
+        background-color: rgba(255,255,255,.3);
+    }
+    #lwh #heros .nav-list .acta{
+        background: rgb(255,255,255,1);
+    }
+     /*#lwh #heros .nav-list .nav-item:hover{
+        background-color: #fff;
+        
+    }
+     /*#lwh #heros .nav-list .nav-item:nth-child(3){
+        background-color: rgba(255,255,255,.3);
+    }
+     #lwh #heros .nav-list .nav-item:nth-child(3):hover{
+        background-color: #fff;
+        
+    }
+    #lwh #heros .nav-list .nav-item:last-child{
+        background-color: rgba(255,255,255,.3);
+    }
+     #lwh #heros .nav-list .nav-item:last-child:hover{
+        background-color: #fff;
+        
+    }*/
+     #lwh #heros .nav-list .nav-item .nav-link{
+        opacity: 0.7;
+        width: 100%;
+        display: block;
+        text-align: center;    
+    }
+     #lwh #big-box{
+        width: 1190px;
+        height: 1617px;
+        position: relative;
+        display: block;
+    }
+    #lwh #heros-home::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #lwh #heros-home .hero-name{
+        float: left;
+        margin-right: 2px;
+        margin-bottom: 5px;
+        position: relative;
+        }
+    #lwh #heros-home .hero-name:hover{
+        transform:scale(1.1);
+    }
+    #lwh .text{
+        color:#000;
+    }
+    #lwh #heros-home .hero-name a img{
+        width:164px;
+    }
+    #lwh .container{
+        position: absolute;
+        bottom: 0;
+        left: 2;
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 84px;
+        background: rgba(40,53,79,.9);
+        transition: all .1s;
+    }
+
+   
+    #lwh .container .container-title{
+        font-family:"microsoft yahei";
+        font-style: italic;
+        color: #fff;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 6px;
+        font-size:30px;
+    }
+    .containera{
+        font-family: "microsoft yahei";
+        font-style: italic;
+        color: rgba(40,53,79,.9) !important;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 6px;
+        font-size: 30px;   
+    }
+    #lwh #heros-home .hero-name .hero-jump:hover .container{
+        background:#fff;
+    }
+    #lwh #heros-home .hero-name .hero-jump:hover .icon{
+        fill:#1a325e;
+    }
+    #lwh #heros-home .hero-name .hero-jump:hover .container-title{
+        color:#1a325e;
+    }
+    
+    #lwh .nav-link .icon{
+        display: inline-block;
+        height: 18px;
+        margin-right: 9px;
+        margin-bottom: -3px;
+        max-width: 50px;
+        fill:#1a325e;
+    }
+    #lwh .container .icon{
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        fill: #fff;   
+        transition: inherit;
+    }
+    #lwh .container .icon svg{
+        height: 18px;
+        width: 18px;
+    }
+    #lwh .hero-name .hero-jump{
+        background-size: cover;
+        width: 164px;
+        height: 282px;
+        border: 2px solid rgba(255,255,255,.4);
+        display: block;
+        border-radius: 1px;
+        transition: 0.8s;
+        background-image: url('../img/lwh/img/lwhbg.jpg');
+        z-index:0;	
+    }
+    #lwh .hero-name .hero-jump::before{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 0 57px 14px rgba(0,195,255,.7);
+    }
+    #lwh .hero-name .hero-jump  .icon .container-title{
+        transform: scale(1.1);
+        color:#000;
+        fill:#1a325e;
+    }
+    #lwh #heros #big-box .con1,.con2,.con3,.con4{
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 1190px;
+        height: 1617px;
+    }
+    #lwh #big-box .con1{
+        display: block;
+    }
+    #lwh #big-box .con2,.con3,.con4{
+        display: none;
+    }
+    #lwh #big-box .con2>.hero-name,.con3>.hero-name,.con4>.hero-name{
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        box-shadow:  0 0 57px 14px rgba(0,195,255,.7);
+        position: relative;
+        top:0;
+        left: 0;
+        transition:inherit;
+    }
+    #lwh #big-box .con2>.hero-name>.hero-jump>.container{
+        background-color:rgba(0,195,255);
+    }
+    #lwh #big-box .con3>.hero-name>.hero-jump>.container{
+        background-color:rgba(0,195,255);
+    }
+    #lwh #big-box .con4>.hero-name>.hero-jump>.container{
+        background-color:rgba(0,195,255);
+    }
