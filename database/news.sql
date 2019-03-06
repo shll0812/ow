@@ -331,4 +331,24 @@ INSERT INTO media_floor6 VALUES
 (NULL,"英雄","img/shl/floor6/s1-2.jpg","img/shl/floor6/s1-2.jpg","img/shl/floor6/s1-2.jpg","img/shl/floor6/s1-2.jpg","img/shl/floor6/s1-2.jpg","6");
 
 
+/**守望用户列表**/
+CREATE TABLE ow_user(
+  uid INT PRIMARY KEY AUTO_INCREMENT,
+  uname VARCHAR(32),	#用户名
+  upwd  VARCHAR(32),    #密码
+  email VARCHAR(64),    #电子邮箱
+  idnumber VARCHAR(32)	#身份证号
+);
+
+INSERT INTO ow_user VALUES
+(null,"测试1","123456789","15112@qq.com","12345678912345678912"),
+(null,"测试2","123456789","15113@qq.com","12345678912345678912"),
+(null,"测试3","123456789","15114@qq.com","12345678912345678912"),
+(null,"测试4","123456789","15115@qq.com","12345678912345678912"),
+(null,"测试5","123456789","15116@qq.com","12345678912345678912"),
+(null,"无敌","123456789","153@qq.com","12345678912345678912"),
+(null,"囧","123456789","154@qq.com","12345678912345678912"),
+(null,"寂寞","123456789","155@qq.com","12345678912345678912");
+
+
 
